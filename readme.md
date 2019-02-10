@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-npm i --only=dev @silvanite/vuepress-plugin-markdown-classes
+npm i @silvanite/vuepress-plugin-markdown-classes
 ```
 
 Load the plugin inside your `config.js` or in your theme's `index.js`
