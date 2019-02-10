@@ -1,0 +1,33 @@
+{
+    "name": "@silvanite/vuepress-plugin-markdown-classes",
+    "version": "0.0.1",
+    "description": "Add class names to markdown generated html in VuePress",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/silvanite/vuepress-plugin-markdown-classes.git"
+    },
+    "main": "dist/index.js",
+    "files": [
+        "dist",
+        "readme.md"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c",
+        "watch": "rollup -mwc",
+        "prepublish": "npm run build"
+    },
+    "keywords": [
+        "vuepress",
+        "plugin",
+        "markdown"
+    ],
+    "author": "Marco Mark <m2de@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "7.3.1",
+        "rollup": "^1.1.2",
+        "rollup-plugin-babel": "^4.3.2"
+    }
+}
