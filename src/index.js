@@ -1,13 +1,9 @@
+import DefaultRules from './rules'
+
 const plugin = (config = {}, ctx) => {
 
     const prefix = config.prefix || 'md'
-    const rules = config.rules || [
-        'heading_open',
-        'paragraph_open',
-        'link_open',
-        'bullet_list_open',
-        'image',
-    ]
+    const rules = config.rules || DefaultRules
 
     return {
 
