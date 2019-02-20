@@ -1,5 +1,7 @@
 # VuePress Plugin to add unique class names to markdown generated html
 
+Additional information about this Plugin can be found at [https://www.marcomark.net/code/vuepress/markdown-classes.html](https://www.marcomark.net/code/vuepress/markdown-classes.html)
+
 ## Example
 
 ```html
