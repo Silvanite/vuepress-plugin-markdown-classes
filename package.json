@@ -1,6 +1,6 @@
 {
     "name": "@silvanite/vuepress-plugin-markdown-classes",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Add class names to markdown generated html in VuePress",
     "repository": {
         "type": "git",
